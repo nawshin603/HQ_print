@@ -1,0 +1,207 @@
+@font-face {
+	font-family: "paperfly roman";
+	src: url('../fonts/Helvetica LT 55 Roman.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "paperfly italic";
+	src: url('../fonts/Helvetica LT 56 Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "paperfly bold";
+	src: url('../fonts/Helvetica LT 75 Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "paperfly bold italic";
+	src: url('../fonts/Helvetica LT 76 Bold Italic.ttf') format('truetype');
+}
+
+/* The Modal (background) */
+.modal {
+    text-align: center;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    left: 0;
+    top: 0;
+    padding: 0;
+    border: 1px solid #fff;
+    width: 80%;
+    height: auto;
+    min-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+.box {
+	background: #fff;
+}
+
+.bdt {
+	
+}
+
+.bdt thead {
+background-color: #16469E;
+color: white;
+font: 11px 'paperfly roman'
+}
+
+.bdt > td {
+	font-size: 11px;
+	
+}
+
+.bdt tr:last-child td, .bdt tr:last-child th {
+    border-bottom: 1px solid #f0f1f5;
+}
+
+.bdt > tbody > tr > td, .bdt > tbody > tr > th, .bdt > tfoot > tr > td, .bdt > tfoot > tr > th, .bdt > thead > tr > td, .bdt > thead > tr > th {
+    border-color: #e6e7ed;
+}
+
+.search-form .form-control {
+    border-color: #e6e7ed;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: 400;
+    height: 30px;
+
+}
+
+#page-rows-form {
+
+}
+
+#page-rows-form label {
+
+}
+
+#page-rows-form select {
+    background-clip: padding-box;
+    border-color: #e6e7ed;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: 400;
+    height: 30px;
+    margin: 0;
+    outline: 0 none;
+}
+
+#table-footer {
+	margin-bottom: 20px;
+}
+
+.pagination {
+	padding-right: 20px
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    border-color: #fff;
+}
+
+.pagination > li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.pagination > li > a, .pagination > li > span {
+    border: none;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background: #ebecf2;
+    height: 56px;
+    line-height: 56px;
+    padding: 0;
+    text-align: center;
+    width: 56px;
+    color: #333;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover {
+    background: #E2E3EC;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    color: #363f45;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.pagination > li.active > a, .pagination > li.active > span {
+    font-weight: 700;
+}
+
+.table-info {
+	font-size: 12px;
+    line-height: 50px;
+    margin-left: 40px;
+}
